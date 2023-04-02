@@ -1,10 +1,10 @@
 <?php
 // MySQL database connection details
-$servername = "127.0.0.1";
+$servername = "localhost";
 $username = "root";
-$password = "";
+$password = '';
 $dbname = "grades";
-$port = "3307";
+$port = 3307;
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname, $port);
@@ -29,16 +29,19 @@ $xml->appendChild($courses);
 
 // Loop through each row in the result set and add it as a child element of the root element
 while ($row = $result->fetch_assoc()) {
-    $courses = $xml->createElement("course");
-    $coursess->appendChild($course);
-
+    $course = $xml->createElement("course");
+    $courses->appendChild($course);
     $course_id = $xml->createElement("course_id", $row["course_id"]);
     $courses->appendChild($course_id);
 
     $course_name = $xml->createElement("course_name");
     $courses->appendChild($course_name);
+    $course_name = $xml->createElement("course_name", $row["course_name"]);
+    $courses->appendChild($course_name);
 
     $credit_hour = $xml->createElement("credit_hour");
+    $courses->appendChild($credit_hour);
+    $credit_hour = $xml->createElement("credit_hour", $row["credit_hour"]);
     $courses->appendChild($credit_hour);
 }
 
