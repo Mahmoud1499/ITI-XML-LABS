@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+    <location>123 Main St.</location>
+    <description>A public library in downtown.</description>
+    <librarian>Jane Doe</librarian>
+    <books>
+        <book>
+            <title>Book ONE</title>
+            <ISBN>1</ISBN>
+            <author>Mahmoud Mohamed</author>
+            <preface>
+                This is the preface of Book ONE.
+            </preface>
+            <parts>
+                <part>
+                    <title>Part I</title>
+                    <chapters>
+                        <chapter>
+                            <title>Chapter 1</title>
+                            <summary>
+                                This is the summary of Chapter 1.
+                            </summary>
+                            <sections>
+                                <section>
+                                    <paragraph>
+                                        This is the content of the first section in Chapter 1.
+                                    </paragraph>
+                                </section>
+                                <section>
+                                    <paragraph>
+                                        This is the content of the second section in Chapter 1.
+                                    </paragraph>
+                                </section>
+                            </sections>
+                        </chapter>
+                        <chapter>
+                            <title>Chapter 2</title>
+                            <summary>
+                                This is the summary of Chapter 2.
+                            </summary>
+                            <sections>
+                                <section>
+                                    <paragraph>
+                                        This is the content of the first section in Chapter 2.
+                                    </paragraph>
+                                </section>
+                                <section>
+                                    <paragraph>
+                                        This is the content of the second section in Chapter 2.
+                                    </paragraph>
+                                </section>
+                            </sections>
+                        </chapter>
+                    </chapters>
+                </part>
+                <part>
+                    <title>Part II</title>
+                    <chapters>
+                        <chapter>
+                            <title>Chapter 3</title>
+                            <summary>
+                                This is the summary of Chapter 3.
+                            </summary>
+                            <sections>
+                                <section>
+                                    <paragraph>
+                                        This is the content of the first section in Chapter 3.
+                                    </paragraph>
+                                </section>
+                                <section>
+                                    <paragraph>
+                                        This is the content of the second section in Chapter 3.
+                                    </paragraph>
+                                </section>
+                            </sections>
+                        </chapter>
+                    </chapters>
+                </part>
+            </parts>
+        </book>
+    </books>
+</library>

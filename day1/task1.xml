@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="employee.css"?>
+
+<employees>
+    <employee isbn="1">
+        <name>Mahmooud Mohamed</name>
+        <phones>
+            <phone type="home">034261484</phone>
+            <phone type="work">01204884451</phone>
+            <phone type="mobile">01091619325</phone>
+        </phones>
+
+        <Address>
+            <street>Main Street</street>
+            <building_number>35</building_number>
+            <region>EL Ibrahimya</region>
+            <city>Alexandria</city>
+            <country>EGY</country>
+        </Address>
+        <email>mahmoudmahmed1499@gmail.com</email>
+    </employee>
+
+    <employee isbn="2">
+        <name>Omar Mohamed</name>
+        <phones>
+            <phone type="home">0342612525484</phone>
+            <phone type="work">01204882452744451</phone>
+            <phone type="mobile">01024291619325</phone>
+        </phones>
+
+        <Address>
+            <street>Main Street</street>
+            <building_number>42</building_number>
+            <region>EL Ibrahimya</region>
+            <city>Alexandria</city>
+            <country>EGY</country>
+        </Address>
+        <email>omar@gmail.com</email>
+    </employee>
+
+    <employee isbn="3">
+        <name>khaled Mohamed</name>
+        <phones>
+            <phone type="home">034261484544</phone>
+            <phone type="work">012042182484451</phone>
+            <phone type="mobile">02135872</phone>
+        </phones>
+
+        <Address>
+            <street>Main Street</street>
+            <building_number>1</building_number>
+            <region>EL Ibrahimya</region>
+            <city>Alexandria</city>
+            <country>EGY</country>
+        </Address>
+        <email>khaled@gmail.com</email>
+    </employee>
+</employees>
