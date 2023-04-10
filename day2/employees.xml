@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE employees SYSTEM "task1.dtd">
+
+<employees>
+    <employee>
+        <name>Mahmooud Mohamed</name>
+        <phones>
+            <phone type="home">034261484</phone>
+            <phone type="work">01204884451</phone>
+            <phone type="mobile">01091619325</phone>
+        </phones>
+        <addresses>
+            <address>
+                <street>Main Street</street>
+                <building_number>123</building_number>
+                <region>East</region>
+                <city>Alexandria</city>
+                <country>EGY</country>
+            </address>
+            <address>
+                <street>Second Street</street>
+                <building_number>456</building_number>
+                <region>West</region>
+                <city>Cairo</city>
+                <country>EGY</country>
+            </address>
+        </addresses>
+        <email>
+            mahmoudmahmed1499@gmail.com</email>
+    </employee>
+    <employee>
+        <name>Omar Mohamed</name>
+        <phones>
+            <phone type="home">0342612525484</phone>
+            <phone type="work">
+                01204882452744451</phone>
+            <phone type="mobile">01024291619325</phone>
+        </phones>
+        <addresses>
+            <address>
+                <street>Main Street</street>
+                <building_number>123</building_number>
+                <region>East</region>
+                <city>Alexandria</city>
+                <country>EGY</country>
+            </address>
+            <address>
+                <street>Second Street</street>
+                <building_number>456</building_number>
+                <region>West</region>
+                <city>Cairo</city>
+                <country>EGY</country>
+
+            </address>
+        </addresses>
+        <email>
+            omar@gmail.com</email>
+    </employee>
+    <employee>
+        <name>khaled Mohamed</name>
+        <phones>
+            <phone type="home">034261484544</phone>
+            <phone type="work">
+                012042182484451</phone>
+            <phone type="mobile">02135872</phone>
+        </phones>
+        <addresses>
+            <address>
+                <street>Main Street</street>
+                <building_number>123</building_number>
+                <region>East</region>
+                <city>Alexandria</city>
+                <country>EGY</country>
+            </address>
+            <address>
+                <street>Second Street</street>
+                <building_number>456</building_number>
+                <region>West</region>
+                <city>Cairo</city>
+                <country>EGY</country>
+            </address>
+        </addresses>
+        <email>khaled@gmail.com</email>
+    </employee>
+</employees>
